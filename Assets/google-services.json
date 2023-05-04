@@ -1,34 +1,164 @@
 {
   "project_info": {
-    "project_number": "647005696606",
-    "firebase_url": "https://smart-parking-af831-default-rtdb.firebaseio.com",
-    "project_id": "smart-parking-af831",
-    "storage_bucket": "smart-parking-af831.appspot.com"
+    "project_number": "14472896919",
+    "firebase_url": "https://heymotocarro-1a1d4.firebaseio.com",
+    "project_id": "heymotocarro-1a1d4",
+    "storage_bucket": "heymotocarro-1a1d4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:647005696606:android:a5437873e818b9dc3bbacf",
+        "mobilesdk_app_id": "1:14472896919:android:b5582b9d66a43bcf2aa4d2",
         "android_client_info": {
           "package_name": "com.DefaultCompany.com.unity.template.mobile2D"
         }
       },
       "oauth_client": [
         {
-          "client_id": "647005696606-11qvngng38ijgjp9igkggsue7fo411gr.apps.googleusercontent.com",
+          "client_id": "14472896919-g0hf09ija2d0b4fasvu4k2l3ggvc12l8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBx5mET1zv4BdYl_VPUH4YDHBXe3Q0dzF4"
+          "current_key": "AIzaSyBspE3GIgfiGv7bld557cII78IXeu_4QCE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "647005696606-11qvngng38ijgjp9igkggsue7fo411gr.apps.googleusercontent.com",
+              "client_id": "14472896919-g0hf09ija2d0b4fasvu4k2l3ggvc12l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14472896919:android:55027e8062ee72632aa4d2",
+        "android_client_info": {
+          "package_name": "com.simpleap.heymotocarro.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14472896919-g0hf09ija2d0b4fasvu4k2l3ggvc12l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBspE3GIgfiGv7bld557cII78IXeu_4QCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14472896919-g0hf09ija2d0b4fasvu4k2l3ggvc12l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14472896919:android:70231ad7a18446dc2aa4d2",
+        "android_client_info": {
+          "package_name": "com.simpleap.heymotocarro.user"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14472896919-2dq4gs0kid4hvl7nq475464tunj1jjip.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpleap.heymotocarro.user",
+            "certificate_hash": "6a2ab6922c3028d01c51bdf9a0b2599f931bf09c"
+          }
+        },
+        {
+          "client_id": "14472896919-7nvrp4fjjevdf9kaopo8gnsvncos12a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpleap.heymotocarro.user",
+            "certificate_hash": "be990c6e84ceeaacd63930ea5d641b0f85c21497"
+          }
+        },
+        {
+          "client_id": "14472896919-7rhnltai5osvf6q6ingngtmiqa7s7dej.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpleap.heymotocarro.user",
+            "certificate_hash": "fba211383b8c2f1a7cadb32a54fc2ec122a468b6"
+          }
+        },
+        {
+          "client_id": "14472896919-jb6qdl8to9ladvhj2nfsq5g262trurii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpleap.heymotocarro.user",
+            "certificate_hash": "ae8476489bc1a3889cae3f6a8c05bf740742ed9d"
+          }
+        },
+        {
+          "client_id": "14472896919-kc9lpmtu58enlgdgbo6gpdna1baof3a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpleap.heymotocarro.user",
+            "certificate_hash": "d3e1e88783591635f9da7601cb8fde508fc3e945"
+          }
+        },
+        {
+          "client_id": "14472896919-lccnpbckrinqcv6debuloavumt66tm5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpleap.heymotocarro.user",
+            "certificate_hash": "182694cf3b9d57a1fd4589dce5c86b71187a1e60"
+          }
+        },
+        {
+          "client_id": "14472896919-n9hqu9p14hcqfmlpio0qvc6mmsqv5pih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpleap.heymotocarro.user",
+            "certificate_hash": "c87565b535134364938e2a1b473b18d6337ce3c7"
+          }
+        },
+        {
+          "client_id": "14472896919-nltmu197aec6vse6j81q7m9krluj5tbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpleap.heymotocarro.user",
+            "certificate_hash": "db3fc38888a9485150b48f6506335ce0a6c82d9d"
+          }
+        },
+        {
+          "client_id": "14472896919-vn9kv4lmem4ms317restdkjsee75jfp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simpleap.heymotocarro.user",
+            "certificate_hash": "430ade6f24e40771c5498786e3b55fa1665b000f"
+          }
+        },
+        {
+          "client_id": "14472896919-g0hf09ija2d0b4fasvu4k2l3ggvc12l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBspE3GIgfiGv7bld557cII78IXeu_4QCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14472896919-g0hf09ija2d0b4fasvu4k2l3ggvc12l8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

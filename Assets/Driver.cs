@@ -6,13 +6,13 @@ using UnityEngine;
 public class Driver : MonoBehaviour
 {
     public Beacon thisbeacon;
-    public Driver(Beacon b)
+    public void StartEngine(Beacon b)
     {
         thisbeacon = b;
     }
     void Start()
     {
-        
+        //thisbeacon = (Beacon)ScriptableObject.CreateInstance(typeof(Beacon));
     }
 
     public static (double, double) TrackCar(double x1, double y1, double r1, double x2, double y2, double r2, double x3, double y3, double r3)
@@ -26,7 +26,8 @@ public class Driver : MonoBehaviour
 
         double x = ((C * E) - (F * B)) / ((E * A) - (B * D));
         double y = ((C * D) - (A * F)) / ((B * D) - (A * E));
-
+        Debug.Log("x : " + x);
+        Debug.Log("y : " + y);
         return (x, y);
     }
 
@@ -34,7 +35,9 @@ public class Driver : MonoBehaviour
     void Update()
     {
         double x, y;
-        TrackCar(Sensors.data[0].X, Sensors.data[0].Y, thisbeacon.d1, Sensors.data[1].X, Sensors.data[1].Y, thisbeacon.d2, Sensors.data[2].X, Sensors.data[2].Y, thisbeacon.d3);
+        (x,y)=TrackCar(Sensors.data[0].X, Sensors.data[0].Y, thisbeacon.d1, Sensors.data[1].X, Sensors.data[1].Y, thisbeacon.d2, Sensors.data[2].X, Sensors.data[2].Y, thisbeacon.d3);
+        
+        transform.position = new Vector3(Convert.ToSingle(x), Convert.ToSingle(y), 0);
         
     }
 }
