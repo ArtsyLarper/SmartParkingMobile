@@ -16,6 +16,9 @@ public class Sensors : MonoBehaviour
 
     public DatabaseReference Sensorsreference;
     // Start is called before the first frame update
+
+    
+
     void Start()
     {
         Sensorsreference = FirebaseDatabase.DefaultInstance.GetReference("Sensors");

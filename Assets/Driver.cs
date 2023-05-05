@@ -26,8 +26,8 @@ public class Driver : MonoBehaviour
 
         double x = ((C * E) - (F * B)) / ((E * A) - (B * D));
         double y = ((C * D) - (A * F)) / ((B * D) - (A * E));
-        Debug.Log("x : " + x);
-        Debug.Log("y : " + y);
+        //Debug.Log("x : " + x);
+        //Debug.Log("y : " + y);
         return (x, y);
     }
 
